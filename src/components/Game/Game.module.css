@@ -1,0 +1,36 @@
+.game {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+}
+
+.btnPlayAgain {
+  margin-top: 50px;
+  color: black;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btnPlayAgain:hover {
+  background-color: rgb(233, 210, 210);
+}
+
+.info_game {
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #fff;
+}
